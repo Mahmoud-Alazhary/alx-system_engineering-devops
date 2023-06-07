@@ -1,0 +1,2 @@
+#!/bin/bash
+echo -e "$(ls -la) $(cd) $(ls -la) $(ls -la /boot)\n "
