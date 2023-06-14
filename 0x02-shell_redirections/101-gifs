@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -type f -name "*.git" | rev | cat -d "/" -f1  | cat -d "." -f2- | rev | sort -df
