@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -name "*.git" | rev | cat -d "/" -f1  | cat -d "." -f2- | rev | sort -df
+find . -type f -name "*.git" | rev | cat -d "/" -f1  | cat -d "." -f2- | rev | LC_ALL=C sort -f
